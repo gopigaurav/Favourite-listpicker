@@ -10,13 +10,7 @@ function App() {
   return (
     <DataProvider>
     <div className="App">
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <List/>
-          </Route>
-        </Switch>
-      </Router>
+            <List/>  
     </div>
     </DataProvider>
   );
