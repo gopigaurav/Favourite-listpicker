@@ -1,0 +1,35 @@
+.list{
+    width: 80vw;
+    height: 95vh;
+    margin: auto;
+    margin-top:30px;
+    border-radius: 30px;
+    opacity: 0.8;
+    display: flex;
+    background-color: rgb(156, 156, 156);
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+   margin: 20px;
+   padding: 30px;
+   width: 10vw;
+   height: 15vh;
+   background-color: rgb(168, 214, 226);
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+   justify-content: center !important;
+   position: absolute;
+    bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    outline-width:0 ;
+    background-color: rgb(114, 214, 68);
+}
